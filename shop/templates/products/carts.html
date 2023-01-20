@@ -63,7 +63,7 @@
 
             {% endfor %}
             <tr>
-                <td><a href="/" class="btn btn-primary btn-sm">Check out</a></td>
+                <td><a href="{{url_for('get_order')}}" class="btn btn-success btn-sm">Order now</a></td>
                 <td></td>
                 <td colspan="3"><h4>Tax : ₹{{tax}}</h4></td>
                 <td colspan="4"><h4>Grand Total : ₹{{grandtotal}}</h4></td>
